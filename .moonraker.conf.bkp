@@ -85,3 +85,13 @@ path = ~/print_area_bed_mesh
 origin = https://github.com/Turge08/print_area_bed_mesh.git
 is_system_service = False
 
+[update_manager Klippain-ShakeTune]
+type = git_repo
+origin = https://github.com/Frix-x/klippain-shaketune.git
+path = ~/klippain_shaketune
+virtualenv = /home/biqu/klippy-env
+requirements = requirements.txt
+system_dependencies = system-dependencies.json
+primary_branch = main
+managed_services = klipper
+
